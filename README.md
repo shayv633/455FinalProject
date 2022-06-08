@@ -8,4 +8,4 @@ For the facial recognition portion of the project, we did a lot of research abou
 
 Thanks to their pretrained haar cascades, we were able to focus on creating the image filters and how best to only anonymize the faces. We ended up using a mask and cutting out circles for each face detected by the haar cascade. We could then copy and "deep-fry" the entire image, and using the mask remove all of the image expect for the faces. Then we removed everything but the background in the original image and combined both images together to get our final image.
 
-To see our final project video, open up the video file in this repo.
+To see our final project video, download it from this link: https://drive.google.com/file/d/1cNE5OxjUxcIT2a1rvff5MfFq_slxTQef/view?usp=sharing
