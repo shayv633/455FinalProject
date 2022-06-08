@@ -7,3 +7,5 @@ However as we did further research, we found that this filtering could be used a
 For the facial recognition portion of the project, we did a lot of research about what would be best for our project before eventually settling on OpenCV and their open source haar cascades. We sourced them from this Git repo: https://github.com/opencv/opencv/blob/master/data/haarcascades
 
 Thanks to their pretrained haar cascades, we were able to focus on creating the image filters and how best to only anonymize the faces. We ended up using a mask and cutting out circles for each face detected by the haar cascade. We could then copy and "deep-fry" the entire image, and using the mask remove all of the image expect for the faces. Then we removed everything but the background in the original image and combined both images together to get our final image.
+
+To see our final project video, open up the video file in this repo.
